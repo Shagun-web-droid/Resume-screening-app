@@ -1,12 +1,11 @@
 def extract_skills(text):
     skills = {
-        "web development": ["html", "css", "javascript", "react", "flask" , "django" , "node.js"],
+       "web development": ["html", "css", "javascript", "react", "flask" , "django" , "node.js"],
         "data analyst": ["sql", "excel", "power bi", "pandas" ,"numpy" , "matplotlib" , "tableau"],
-        "machine learning": ["machine learning", "nlp", "tensorflow","machine learning", "deep learning", "artificial intelligence","nlp", "computer vision","scikit-learn", "tensorflow", "keras", "pytorch","mlops", "model deployment",],
-        "java developer": ["java", "spring", "hibernate", "j2ee", "j2ee", "hibernate", "maven", "gradle", "microservices",  "oracle", "redis", "firebase"],
-        "cloud": ["aws", "docker", "aws", "azure", "gcp","ec2", "s3", "lambda", "docker", "kubernetes","ci/cd", "jenkins", "terraform", "cloudformation"]
+        "machine learning": ["machine learning", "nlp", "tensorflow", "deep learning", "artificial intelligence", "computer vision","scikit-learn", "keras", "pytorch","mlops", "model deployment",],
+        "java developer": ["java", "spring", "hibernate", "j2ee", "maven", "gradle", "microservices",  "oracle", "redis", "firebase"],
+        "cloud": ["aws", "docker", "azure", "gcp","ec2", "s3", "lambda", "docker", "kubernetes","ci/cd", "jenkins", "terraform", "cloudformation"]
     }
-
 
     text = text.lower()
     result = {}
